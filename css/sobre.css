@@ -1,0 +1,33 @@
+.citacao{
+	background-color: #D3DDDA;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	margin: 0px 15px;
+	box-sizing: border-box;
+}
+
+.citacao cite{
+	font-style: italic;
+    float: right;
+    display: block;
+}
+
+#fiat{
+	float: right;
+}
+#petrobras{
+	float:  left;
+}
+
+.rodape{
+	background-color: black;
+	color: #E6E7E8;
+	clear: both;
+	position: fixed;
+	bottom: 0px;
+	width:  100%;
+}
+
+.citacao {
+    padding: 20px;
+}

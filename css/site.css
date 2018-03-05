@@ -1,0 +1,141 @@
+/*
+* @Author: Gabriel
+* @Date:   2017-05-20 16:36:51
+* @Last Modified by:   Gabriel
+* @Last Modified time: 2017-05-20 16:39:49
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+
+
+body{
+	font-family: "Crimson Text", serif;
+	background-color: #F2FFFC;
+	line-height: 1.5;
+	font-size: 20px;
+
+}
+
+p{
+	text-align: justify;
+	margin: 20px 0px;
+}
+
+.italico{
+	font-style: italic;
+}
+
+.negrito{
+	font-weight: bold;
+}
+main{
+	float: left;
+	width: 85%;
+	box-sizing: border-box;
+	padding-bottom: 80px;
+}
+
+.corpo{
+	width: 85%;
+	margin: 30px auto;
+}
+
+.cabecalho_pagina{
+	font-family: "Open Sans Condensed", sans-serif;
+	text-align: center;
+	color: rgb(250,255,250);
+	background-color: #851944;
+	padding: 25px;
+	margin:0px ;
+	border-bottom: 10px solid black ;
+	font-weight: bolder;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+.perfil{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.menu-navegacao{
+	position: absolute;
+	top:  310px;
+	right:  0px;
+	width: 15%;
+	box-sizing: border-box;
+}
+
+.perfil, .menu-navegacao{
+	border-bottom: 10px solid black ;
+	border-left: 10px solid black ;
+}
+
+.menu-navegacao{
+	text-align: center;
+	background-color: #3C1D3D;
+	clear: right;
+	border-bottom: 10px solid black ;
+	padding: 20px;
+}
+
+.menu-navegacao a {
+    color: #E6E7E8;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: lowercase;
+}
+
+.titulo-menu{
+	font-size: 30px;
+	margin-bottom: 25px;
+	color:  #E6E7E8;
+	font-weight:  bolder;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.rodape{
+	background-color: black;
+	color: #E6E7E8;
+	clear: both;
+	position: fixed;
+	bottom: 0px;
+	width:  100%;
+	padding: 20px;
+}
+
+.titulo-artigo{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+	clear: both;
+}
+
+.artigo {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.redes-sociais li{
+	display: inline-block;
+}
+
+.redes-sociais a{
+	display: inline-block;
+	width:  40px;
+	height: 40px;
+	text-indent: -99999px;
+}
+
+#github{
+	background-image: url(../img/github.png);
+}
+#twitter{
+	background-image: url(../img/twitter.png);
+}
+#linkedin{
+	background-image: url(../img/linkedin.png);
+}
