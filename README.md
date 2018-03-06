@@ -1,3 +1,6 @@
-# Treinamento-Alura-Html5Css3
+# Treinamento Alura Html 5 e Css 3
 
-Repositório para guardar o treinamento de HTML5  e CSS3 no Alura
+> Treinamento completo 
+
+Certificado Alura:
+https://cursos.alura.com.br/certificate/837fa074-a761-46a0-9105-e801f37aac9b
